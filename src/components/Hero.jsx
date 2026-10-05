@@ -55,18 +55,20 @@ export default function Hero({ onOpenBooking }) {
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5 mb-12">
             <button
               onClick={() => onOpenBooking()}
-              className="px-8 py-4 bg-[#E5FF3F] text-[#0B0B0D] font-extrabold text-sm sm:text-base uppercase tracking-wider rounded-xl hover:bg-[#D4EE2B] hover:shadow-[0_0_30px_rgba(229,255,63,0.45)] transition-all flex items-center justify-center gap-2 active:scale-95 group"
+              className="px-8 py-4 bg-[#E5FF3F] text-[#0B0B0D] font-extrabold text-sm sm:text-base uppercase tracking-wider rounded-xl hover:bg-[#D4EE2B] hover:shadow-[0_0_30px_rgba(229,255,63,0.45)] transition-all flex items-center justify-center gap-2 active:scale-95 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E5FF3F]"
             >
               <span>Book a Free Trial</span>
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform stroke-[2.5]" />
             </button>
 
             <a
-              href="#programs"
-              onClick={scrollToPrograms}
-              className="px-7 py-4 bg-[#151519]/80 hover:bg-[#1D1D23] text-white border border-white/15 hover:border-white/30 font-bold text-sm sm:text-base uppercase tracking-wider rounded-xl transition-all flex items-center justify-center backdrop-blur-md"
+              href={getWhatsAppLink()}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-7 py-4 bg-[#151519]/90 hover:bg-[#1D1D23] text-white hover:text-[#E5FF3F] border border-white/20 hover:border-[#E5FF3F]/40 font-bold text-sm sm:text-base uppercase tracking-wider rounded-xl transition-all flex items-center justify-center gap-2 backdrop-blur-md active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E5FF3F]"
             >
-              Explore Programs
+              <Flame className="w-4 h-4 text-[#E5FF3F]" />
+              <span>WhatsApp Us</span>
             </a>
           </div>
 

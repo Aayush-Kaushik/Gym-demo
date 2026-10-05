@@ -41,25 +41,33 @@ export default function LocationSection({ onOpenBooking }) {
             </div>
 
             {/* Quick Actions */}
-            <div className="grid grid-cols-2 gap-3 pt-4 border-t border-white/10">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-4 border-t border-white/10">
               <a
                 href={gymConfig.googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-3 px-3 rounded-xl bg-[#E5FF3F] text-[#0B0B0D] text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 hover:bg-[#D4EE2B] transition-colors"
+                className="py-3 px-2 rounded-xl bg-[#E5FF3F] text-[#0B0B0D] text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 hover:bg-[#D4EE2B] transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E5FF3F]"
               >
                 <Navigation className="w-3.5 h-3.5" />
                 <span>Get Directions</span>
               </a>
 
               <a
+                href={`tel:${gymConfig.phoneRaw}`}
+                className="py-3 px-2 rounded-xl bg-white/10 hover:bg-white/15 text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E5FF3F]"
+              >
+                <Phone className="w-3.5 h-3.5 text-zinc-300" />
+                <span>Call Now</span>
+              </a>
+
+              <a
                 href={getWhatsAppLink()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-3 px-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors"
+                className="py-3 px-2 rounded-xl bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-500/30 text-emerald-300 text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400"
               >
-                <MessageSquare className="w-3.5 h-3.5 text-[#E5FF3F]" />
-                <span>WhatsApp</span>
+                <MessageSquare className="w-3.5 h-3.5 text-emerald-400" />
+                <span>WhatsApp Us</span>
               </a>
             </div>
           </div>

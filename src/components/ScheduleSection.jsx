@@ -29,9 +29,9 @@ export default function ScheduleSection({ onOpenBooking }) {
           Join our high-energy morning or evening slots. Floor trainers are always available for guidance throughout open hours.
         </p>
 
-        <div className="mt-4 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#E5FF3F]/10 border border-[#E5FF3F]/20 text-[11px] font-medium text-zinc-300">
+        <div className="mt-4 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-[11px] text-zinc-400">
           <Clock className="w-3.5 h-3.5 text-[#E5FF3F]" />
-          <span>{gymConfig.scheduleNote}</span>
+          <span>Demo Schedule — Please confirm current timings with gym front desk</span>
         </div>
       </div>
 

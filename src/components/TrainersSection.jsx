@@ -8,7 +8,7 @@ export default function TrainersSection({ onOpenBooking }) {
       {/* Section Header */}
       <div className="max-w-3xl mx-auto text-center mb-16">
         <span className="text-xs font-extrabold uppercase tracking-widest text-[#E5FF3F] bg-[#E5FF3F]/10 px-3 py-1 rounded-full border border-[#E5FF3F]/20">
-          Expert Supervision
+          Coaching & Supervision
         </span>
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white uppercase tracking-tight mt-4 mb-3">
           Coaches Who Value Technique & Progress
@@ -16,6 +16,10 @@ export default function TrainersSection({ onOpenBooking }) {
         <p className="text-sm sm:text-base text-zinc-400">
           Our coaches emphasize biomechanics, safety, and steady progressive overload. Every new lifter is given hands-on orientation so you train with total confidence.
         </p>
+        <div className="mt-4 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-[11px] text-zinc-400">
+          <User className="w-3.5 h-3.5 text-[#E5FF3F]" />
+          <span>Trainer Profiles — Strength, CrossFit & Functional Fitness</span>
+        </div>
       </div>
 
       {/* Trainers Grid */}

@@ -110,23 +110,24 @@ export default function InlineLeadBanner({ onOpenBooking }) {
                       onChange={(e) => setGoal(e.target.value)}
                       className="w-full bg-[#151519] border border-white/10 rounded-xl px-3.5 py-2.5 text-sm text-white focus:outline-none focus:border-[#E5FF3F]"
                     >
-                      <option value="Strength Training">Strength & Powerlifting</option>
-                      <option value="CrossFit WODs">CrossFit & High Intensity</option>
-                      <option value="Fat Loss & Toning">Fat Loss & Conditioning</option>
-                      <option value="Personal Coaching">1-on-1 Personal Training</option>
+                      <option value="Muscle Building">Muscle Building</option>
+                      <option value="Fat Loss">Fat Loss</option>
+                      <option value="Strength">Strength</option>
+                      <option value="CrossFit">CrossFit</option>
+                      <option value="General Fitness">General Fitness</option>
                     </select>
                   </div>
 
                   <button
                     type="submit"
-                    className="w-full py-3 bg-[#E5FF3F] text-[#0B0B0D] font-extrabold text-xs uppercase tracking-wider rounded-xl hover:bg-[#D4EE2B] transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(229,255,63,0.3)]"
+                    className="w-full py-3 bg-[#E5FF3F] text-[#0B0B0D] font-extrabold text-xs uppercase tracking-wider rounded-xl hover:bg-[#D4EE2B] transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(229,255,63,0.3)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E5FF3F]"
                   >
-                    <span>Get Free Trial Pass</span>
+                    <span>Book My Free Trial</span>
                     <ArrowRight className="w-4 h-4 stroke-[3]" />
                   </button>
 
                   <p className="text-[10px] text-zinc-500 text-center">
-                    Instant pass voucher sent to your phone.
+                    Instant pass voucher confirmation sent to your phone.
                   </p>
                 </form>
               ) : (

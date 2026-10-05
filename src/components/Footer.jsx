@@ -153,7 +153,7 @@ export default function Footer({ onOpenBooking }) {
 
         {/* Footer Bottom */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
-          <p>© {new Date().getFullYear()} {gymConfig.businessName}. All rights reserved. • Sector 12, Gurugram</p>
+          <p>© {new Date().getFullYear()} {gymConfig.businessName} • Concept Website Demo. Sector 12, Gurugram</p>
           <div className="flex items-center gap-6 text-xs text-zinc-400">
             <a href="#about" onClick={(e) => scrollTo(e, '#about')} className="hover:text-white transition-colors">
               About

@@ -8,17 +8,17 @@ export default function ReviewsSection() {
       {/* Section Header */}
       <div className="max-w-3xl mx-auto text-center mb-16">
         <span className="text-xs font-extrabold uppercase tracking-widest text-[#E5FF3F] bg-[#E5FF3F]/10 px-3 py-1 rounded-full border border-[#E5FF3F]/20">
-          Member Social Proof
+          Community Feedback
         </span>
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white uppercase tracking-tight mt-4 mb-3">
-          Local Gurugram Lifters & Members
+          Why Members Choose Royal Gym
         </h2>
         <p className="text-sm sm:text-base text-zinc-400">
-          Real feedback from fitness enthusiasts training in Sector 12. Rated {gymConfig.rating} out of 5 across {gymConfig.reviewCount} public Google reviews.
+          Public feedback and impressions from local fitness enthusiasts training in Sector 12, Gurugram. Rated {gymConfig.rating} out of 5 across {gymConfig.reviewCount} public Google reviews.
         </p>
-        <div className="mt-4 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#E5FF3F]/10 border border-[#E5FF3F]/20 text-[11px] font-medium text-white">
+        <div className="mt-4 inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-[11px] font-medium text-zinc-300">
           <CheckCircle className="w-3.5 h-3.5 text-[#E5FF3F]" />
-          <span>{gymConfig.reviewsNote}</span>
+          <span>Verified Google Maps Listing & Public Feedback</span>
         </div>
       </div>
 

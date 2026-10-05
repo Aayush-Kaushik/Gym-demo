@@ -187,11 +187,11 @@ Please confirm my slot time. Thanks!`;
                   onChange={(e) => setFormData({ ...formData, goal: e.target.value })}
                   className="w-full bg-[#0B0B0D] border border-white/10 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-[#E5FF3F] transition-colors"
                 >
-                  <option value="Muscle Gain">Muscle Gain / Hypertrophy</option>
-                  <option value="Fat Loss">Fat Loss & Conditioning</option>
-                  <option value="Strength">Raw Barbell Strength</option>
-                  <option value="CrossFit">CrossFit & High Intensity</option>
-                  <option value="General Fitness">General Fitness & Mobility</option>
+                  <option value="Muscle Building">Muscle Building</option>
+                  <option value="Fat Loss">Fat Loss</option>
+                  <option value="Strength">Strength</option>
+                  <option value="CrossFit">CrossFit</option>
+                  <option value="General Fitness">General Fitness</option>
                 </select>
               </div>
 
@@ -216,7 +216,7 @@ Please confirm my slot time. Thanks!`;
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full py-3.5 bg-[#E5FF3F] text-[#0B0B0D] font-extrabold text-sm uppercase tracking-wider rounded-xl hover:bg-[#D4EE2B] hover:shadow-[0_0_25px_rgba(229,255,63,0.4)] transition-all flex items-center justify-center gap-2 active:scale-98 disabled:opacity-50"
+                  className="w-full py-3.5 bg-[#E5FF3F] text-[#0B0B0D] font-extrabold text-sm uppercase tracking-wider rounded-xl hover:bg-[#D4EE2B] hover:shadow-[0_0_25px_rgba(229,255,63,0.4)] transition-all flex items-center justify-center gap-2 active:scale-98 disabled:opacity-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#E5FF3F]"
                 >
                   {isSubmitting ? (
                     <span>Reserving Trial...</span>

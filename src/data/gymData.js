@@ -224,7 +224,7 @@ export const gymConfig = {
         "1 Free body composition analysis",
         "Access during all regular open hours"
       ],
-      ctaText: "GET MEMBERSHIP DETAILS"
+      ctaText: "ENQUIRE FOR MEMBERSHIP"
     },
     {
       id: "performance",
@@ -243,7 +243,7 @@ export const gymConfig = {
         "Fundamental nutrition guidelines",
         "1 Guest pass per month"
       ],
-      ctaText: "GET MEMBERSHIP DETAILS"
+      ctaText: "ENQUIRE FOR MEMBERSHIP"
     },
     {
       id: "elite",
@@ -261,7 +261,7 @@ export const gymConfig = {
         "Weekly progress check-in & photo logs",
         "Priority locker access & hydration support"
       ],
-      ctaText: "GET MEMBERSHIP DETAILS"
+      ctaText: "ENQUIRE FOR MEMBERSHIP"
     }
   ],
 
