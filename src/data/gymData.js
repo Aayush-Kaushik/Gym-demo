@@ -17,9 +17,9 @@ export const gymConfig = {
   googleMapsUrl: "https://maps.google.com/?q=Royal+Gym+and+Crossfit+Sector+12+Gurugram",
   
   // Contact & Social (Single replaceable variables)
-  phoneDisplay: "+91 98110 24500",
-  phoneRaw: "+919811024500",
-  whatsappNumber: "+919811024500", // Single configuration variable for WhatsApp
+  phoneDisplay: "+91 94166 27088",
+  phoneRaw: "+919416627088",
+  whatsappNumber: "+919416627088", // Single configuration variable for WhatsApp
   whatsappDefaultMessage: "Hi Royal Gym & CrossFit team! I found your website and would like to claim my Free Trial Session in Sector 12.",
   email: "contact@royalgymgurugram.in",
   instagram: "https://instagram.com",
